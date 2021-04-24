@@ -16,7 +16,7 @@ namespace TodoApi.Controllers
     public class TodoController : Controller
     {
         private static readonly HttpClient _client = new HttpClient();
-        private static readonly string _remoteUrl = "https://istahibackendaad.azurewebsites.net";
+        private static readonly string _remoteUrl = "https://istahie2efrontend.azurewebsites.net";
         private readonly TodoContext _context;
 
         public TodoController(TodoContext context)
