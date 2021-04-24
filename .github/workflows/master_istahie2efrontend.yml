@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'istahie2efrontend'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_daf07547c64f45a1a38edfe7b4d6f97f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b64544dbddbb44d9a250cb1756e9ba68 }}
         package: .
